@@ -620,5 +620,50 @@ namespace MathLibraryTest
 
 
         //QuadraticEquation
+        [TestMethod]
+        public void QuadraticEquation()
+        {
+            // arrange
+            double a = 4;
+            double b = 5;
+            double c = 6;
+            double S1 = 2;
+            double S2 = 2;
+            // act
+            string res = Algebra.QuadraticEquation(a,b,c);
+
+            // assert
+            Assert.AreEqual(S1, S2, res);
+        }
+        [TestMethod]
+        public void QuadraticEquationw()
+        {
+            // arrange
+            double a = 4;
+            double b = 6;
+            double c = 3;
+            double S1 = 0;
+            double S2 = 0;
+            // act
+            string res = Algebra.QuadraticEquation(a, b, c);
+
+            // assert
+            Assert.AreEqual(S1,S2, res);
+        }
+        [TestMethod]
+        public void QuadraticEquatione()
+        {
+            // arrange
+            double a = 2;
+            double b = 6;
+            double c = 3;
+            double S1 = -0.320550528229663;
+            double S2 = -0.320550528229663;
+            // act
+            string res = Algebra.QuadraticEquation(a, b, c);
+
+            // assert
+            Assert.AreEqual(S1, S2, res);
+        }
     }
 }
