@@ -29,7 +29,7 @@ namespace _3ISP9_19VB_Kiselyov_And_Ustinov
             //Console.WriteLine(Trigonometry.AngleTangent(5, 3, 6));
             //Console.WriteLine(Trigonometry.CosineOfAnAngle(5, 6, 4));
             //Console.WriteLine(Trigonometry.AngleCotangent(5, 6, 8));
-            Console.WriteLine(Trigonometry.Arcsine(26));
+            Console.WriteLine(Trigonometry.Arcsine(0.75));
         }
     }
 }

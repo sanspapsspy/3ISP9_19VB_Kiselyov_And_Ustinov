@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3ISP9_19VB_Kiselyov_And_Ust
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibraryBlin", "MathLibraryBlin\MathLibraryBlin.csproj", "{9743EE68-7F99-4B4E-A212-40CF4A909904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLibraryTest", "MathLibraryTest\MathLibraryTest.csproj", "{1D0020B4-0386-4B2D-9891-19FFDDF04716}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9743EE68-7F99-4B4E-A212-40CF4A909904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9743EE68-7F99-4B4E-A212-40CF4A909904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9743EE68-7F99-4B4E-A212-40CF4A909904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D0020B4-0386-4B2D-9891-19FFDDF04716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D0020B4-0386-4B2D-9891-19FFDDF04716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D0020B4-0386-4B2D-9891-19FFDDF04716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D0020B4-0386-4B2D-9891-19FFDDF04716}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

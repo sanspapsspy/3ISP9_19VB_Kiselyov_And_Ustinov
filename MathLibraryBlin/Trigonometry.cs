@@ -40,8 +40,7 @@ namespace MathLibraryBlin
         // Арксинус угла
         public static double Arcsine(double a)
         {
-            double ArsA = Math.Asin(a);
-            return ArsA;
+            return Math.Asin(a);
         }
     }
 }
